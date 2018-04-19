@@ -7,6 +7,8 @@ App({
     logs.unshift(Date.now())
     wx.setStorageSync('logs', logs)
 
+
+
     // 登录
     wx.login({
       success: res => {
@@ -33,6 +35,17 @@ App({
         }
       }
     })
+    this.AppMusic = wx.createInnerAudioContext();
+    this.AppMusic.autoplay =  true;
+    this.AppMusic.loop =     true;
+    this.AppMusic.onPlay(() => {
+      console.log('开始播放')
+    })
+
+    this.AppMusic.onError((res) => {
+      console.log(res.errMsg)
+      console.log(res.errCode)
+    })  
   },
   globalData: {
     userInfo: null

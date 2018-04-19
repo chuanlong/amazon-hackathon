@@ -1,6 +1,4 @@
-<view class="aa" id="c2" style='height: {{winH}}rpx;opacity: {{opacity}};'>
-</view>
-<view class="container" id="c1" bindtouchmove="touchMove">
+<view class="container" id="c4" bindtouchstart="touchStart">
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>

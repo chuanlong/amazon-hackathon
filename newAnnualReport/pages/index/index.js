@@ -1,36 +1,21 @@
-//index.js
-//获取应用实例
 const app = getApp()
-const util = require('../../utils/util.js')
-//把winHeight设为常量，不要放在data里（一般来说不用于渲染的数据都不能放在data里）
-const winHeight = wx.getSystemInfoSync().windowHeight
-var touchDot = 0;//触摸时的原点  
 Page(
 {
   data: {
-    motto: 'Hello World',
+    motto: '开启你的年度账单',
     userInfo: {},
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
   // 触摸移动事件  
-  touchMove: function (e) {
-    var touchMove = e.touches[0].pageX;
-    console.log("touchMove:" + touchMove + " touchDot:" + touchDot + " diff:" + (touchMove - touchDot));
-    // 向左滑动    
-    if (touchMove - touchDot <= -40) {
-      wx.redirectTo({
-        url: '../1/1'
-      });
-    }
-    // 向右滑动  
-    if (touchMove - touchDot >= 40) {
-      wx.redirectTo({
-        url: '../1/1'
-      });
-    }
+  touchStart: function (e) {
+    wx.navigateTo({
+      url: '../1/1'
+    });
   },
   onLoad: function () {
+    app.AppMusic.seek(0);
+    app.AppMusic.src = 'http://mp3.qqmusic.cc/yq/2244095.mp3';
     if (app.globalData.userInfo) {
       this.setData({
         userInfo: app.globalData.userInfo,
