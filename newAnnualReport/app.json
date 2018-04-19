@@ -1,0 +1,19 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/1/1",
+    "pages/2/2",
+    "pages/3/3",
+    "pages/4/4",
+    "pages/5/5",
+    "pages/6/6",
+    "pages/7/7",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fd9927",
+    "navigationBarTitleText": "Your Amazon Shopping Journey (2018)",
+    "navigationBarTextStyle":"black"
+  }
+}

@@ -1,0 +1,48 @@
+/**app.wxss**/
+
+#c1{
+background-image: url('https://thumbnail10.baidupcs.com/thumbnail/8748263ab383e1f0b3004b516e6bbe56?fid=2181911213-250528-756635770053721&time=1524132000&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-b%2FcRhhobYvdwgQP%2BUmv%2BfCK1TjY%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=2522240199968243644&dp-callid=0&size=c1440_u900&quality=90&vuk=-&ft=video&autopolicy=1');
+}
+#c2{
+background-image: url('https://thumbnail10.baidupcs.com/thumbnail/e790f21e4d1abcec5101b8bb4357f5d6?fid=2181911213-250528-395441159882833&time=1524132000&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-qOiNQl48b0HIchfW0oY2Jk862ZU%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=2522240199968243644&dp-callid=0&size=c1440_u900&quality=90&vuk=-&ft=video&autopolicy=1');
+}
+.container {
+background-size: cover;
+height: 100%;
+width: auto;
+display: flex;
+flex-flow: column nowrap;
+justify-content: center;
+align-items: center;
+} 
+
+page {
+width:100%;
+height:100%;
+-webkit-user-select:none;
+user-select:none;
+overflow-x:hidden;
+}
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+.aa{
+background-size: cover;
+}
