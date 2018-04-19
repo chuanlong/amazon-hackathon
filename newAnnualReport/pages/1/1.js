@@ -37,7 +37,7 @@ Page({
       if (vm.data.winH > 0) {
         //清除interval 如果不清除interval会一直往上加
         clearInterval(interval)
-        vm.setData({ winH: vm.data.winH - 10, opacity: vm.data.winH / winHeight * timesheight})
+        vm.setData({ winH: vm.data.winH-12 , opacity: vm.data.winH / winHeight * timesheight})
         vm.hide()
       }
     }, timefade);
