@@ -1,5 +1,5 @@
 const util = require('../../utils/util.js');
-const timefade = 5;
+const timefade = 10;
 const timesheight = 1.8;
 var touchDot = 0;//触摸时的原点  
 const winHeight = wx.getSystemInfoSync().windowHeight * timesheight;

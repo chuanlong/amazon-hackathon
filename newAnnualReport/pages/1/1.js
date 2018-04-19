@@ -1,5 +1,5 @@
 const util = require('../../utils/util.js');
-const timefade = 5;
+const timefade = 10;
 const timesheight = 1.8;
 var touchDot = 0;//触摸时的原点  
 const winHeight = wx.getSystemInfoSync().windowHeight * timesheight;
@@ -37,7 +37,7 @@ Page({
       if (vm.data.winH > 0) {
         //清除interval 如果不清除interval会一直往上加
         clearInterval(interval)
-        vm.setData({ winH: vm.data.winH-12 , opacity: vm.data.winH / winHeight * timesheight})
+        vm.setData({ winH: vm.data.winH-10 , opacity: vm.data.winH / winHeight * timesheight})
         vm.hide()
       }
     }, timefade);
