@@ -1,4 +1,4 @@
-<view class="container" id="c1" bindtouchstart="touchStart">
+<view class="container" id="c1" bindtouchstart="touchStart" style="background-image:url('/images/1_2.jpg')">
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>

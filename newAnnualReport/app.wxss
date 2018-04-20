@@ -1,34 +1,4 @@
 /**app.wxss**/
-#c0{
-background-image: url('https://thumbnail10.baidupcs.com/thumbnail/e801f4b653e804e76c4cb0cdd7c0f465?fid=2181911213-250528-942420264019427&time=1524139200&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-zO0AN%2FmO8sVoQU0HFvIKRIrnkpw%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=2524516791366778373&dp-callid=0&size=c1440_u900&quality=90&vuk=-&ft=video&autopolicy=1');
-}
-
-#c1{
-background-image: url('https://thumbnail10.baidupcs.com/thumbnail/ab52a1415ec4bcf78bf42c2455cdd571?fid=2181911213-250528-933211255660887&time=1524139200&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-PPzMOtika5Xl19TBeZBw6mzcIKE%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=2524516791366778373&dp-callid=0&size=c1440_u900&quality=90&vuk=-&ft=video&autopolicy=1');
-}
-#c2{
-background-image: url('https://thumbnail10.baidupcs.com/thumbnail/e801f4b653e804e76c4cb0cdd7c0f465?fid=2181911213-250528-942420264019427&time=1524139200&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-zO0AN%2FmO8sVoQU0HFvIKRIrnkpw%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=2524516791366778373&dp-callid=0&size=c1440_u900&quality=90&vuk=-&ft=video&autopolicy=1');
-}
-
-#c3{
-background-image: url('https://thumbnail10.baidupcs.com/thumbnail/3d4d7ff5b929b678f57ba8ea14cf80a7?fid=2181911213-250528-659959523906925&time=1524139200&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-cP1K1Rn1coMcTU7SmHv27XicH8s%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=2524516791366778373&dp-callid=0&size=c1440_u900&quality=90&vuk=-&ft=video&autopolicy=1');
-}
-
-#c4{
-background-image: url('https://thumbnail10.baidupcs.com/thumbnail/e6396fd1d5650252334469e5296124ee?fid=2181911213-250528-1051896162639441&time=1524139200&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-LX3sVBI4goCoL2zzMEMlMyJJ1cU%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=2524516791366778373&dp-callid=0&size=c1440_u900&quality=90&vuk=-&ft=video&autopolicy=1');
-}
-
-#c5{
-background-image: url('https://thumbnail10.baidupcs.com/thumbnail/8c7db7c7220fd2ced04e1dfd0e42a0df?fid=2181911213-250528-201550809597582&time=1524139200&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-1yLLySewF4%2FMkHw7PZ4Xlozvilk%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=2524516791366778373&dp-callid=0&size=c1440_u900&quality=90&vuk=-&ft=video&autopolicy=1');
-}
-
-#c6{
-background-image: url('https://thumbnail10.baidupcs.com/thumbnail/8246b825b38182a3291a57cb929e0d77?fid=2181911213-250528-774736000409737&time=1524139200&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-ODnNR6bUCV3Z0jZEzPxUpClgcE8%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=2524516791366778373&dp-callid=0&size=c1440_u900&quality=90&vuk=-&ft=video&autopolicy=1');
-}
-
-#c7{
-background-image: url('https://thumbnail10.baidupcs.com/thumbnail/d32cbe7334e2c6f76f8992656a442a22?fid=2181911213-250528-1045802336833566&time=1524139200&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-ynU7VZsSo%2Fylgf7AGQhcTqxKbt8%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=2524516791366778373&dp-callid=0&size=c1440_u900&quality=90&vuk=-&ft=video&autopolicy=1');
-}
 
 .container {
 background-size: cover;
@@ -63,4 +33,9 @@ overflow-x:hidden;
 
 .userinfo-nickname {
   color: #aaa;
+}
+
+.usermotto{
+  margin-top: 350px;
+  opacity: 0;
 }

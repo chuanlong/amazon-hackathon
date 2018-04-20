@@ -1,4 +1,4 @@
-<view class="container" id="c7">
+<view class="container" id="c7" style="background-image:url('/images/7_2.jpg')">
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>
