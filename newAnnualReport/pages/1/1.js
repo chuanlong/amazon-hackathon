@@ -9,8 +9,8 @@ Page({
     });
   },
    onLoad: function () {
-    app.AppMusic.seek(16);
-    app.AppMusic.src = 'http://mp3.qqmusic.cc/yq/205387371.mp3';
+    // app.AppMusic.seek(16);
+    // app.AppMusic.src = 'http://mp3.qqmusic.cc/yq/205387371.mp3';
     // http://mp3.qqmusic.cc/yq/205387371.mp3
    }
 })
