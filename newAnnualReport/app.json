@@ -13,7 +13,7 @@
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fd9927",
-    "navigationBarTitleText": "Amazon Shopping Journey",
+    "navigationBarTitleText": "Amazon Shopping Report",
     "navigationBarTextStyle":"black"
   }
 }
